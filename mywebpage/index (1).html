@@ -22,7 +22,6 @@
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
-
 <!-- меню (navigation bar) -->
 
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -70,8 +69,13 @@
 
 <!-- часть страницы, которая под шапкой -->
 		<section id="portfolio">
+			body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 			<div class="container">
-				<style= "background-image: "background.jpg";  background-repeat: no-repeat;  background-position: center center;  background-size: cover; ">
 
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
