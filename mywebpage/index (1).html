@@ -48,7 +48,7 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:DodgerBlue; padding-top:70 px; font-family: Montserrat, sans-serif; "> 
+		<header style="background-color:PaleTurquoise; padding-top:70 px; font-family: Montserrat, sans-serif; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
@@ -56,12 +56,19 @@
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
 						<h1>Полина Мякинченко</h1>
 						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
+						<p>Человек, умеющий <u>создавать HTML</u></p> 
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
 <img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<style>
+  img {
+    border: 3px solid #40E0D0; /* 3 пикселя сплошной зелёной рамки */
+  }
+</style>
+
+<img src="myphoto.jpg" alt="Описание картинки" class="bordered-image">
 					</div>
 				</div>
 			</div>
